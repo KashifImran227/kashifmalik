@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
 
       <div className="flex justify-center w-full lg:w-1/3 mb-8 lg:mb-0">
         <img
-          className="object-contain max-h-[300px] lg:max-h-[400px] w-auto"
+          className="object-contain max-h-[100px] lg:max-h-[400px] opacity-40 w-auto"
           src="/tiger.png"
           alt="Tiger"
         />
