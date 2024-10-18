@@ -51,4 +51,12 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+const Page = () => {
+  return (
+    <div className="h-[100vh] w-full bg-gradient-to-b from-[#08090A] via-[#012635] to-[#060606]">
+      <Projects />
+    </div>
+  );
+};
+
+export default Page;
